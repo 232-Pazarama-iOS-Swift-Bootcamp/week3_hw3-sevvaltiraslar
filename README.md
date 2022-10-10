@@ -19,3 +19,6 @@ Bu haftanın ödev konusu olarak, geliştirdiğimiz iTunes Client App uygulamas�
 
 - iTunes Search API: https://developer.apple.com/library/archive/documentation/AudioVideo/ Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1
   
+
+
+![alt text](file:///Users/sevval/Desktop/Ekran%20Resmi%202022-10-10%2015.07.39.png)

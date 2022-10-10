@@ -22,4 +22,4 @@ Bu haftanın ödev konusu olarak, geliştirdiğimiz iTunes Client App uygulamas�
 
 ## Ekran Görüntüleri
 
-![ScreenShot](file:///Users/sevval/Desktop/Ekran%20Resmi%202022-10-10%2015.07.39.png)
+![ScreenShot](https://www.hizliresim.com/stchv5m)

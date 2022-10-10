@@ -28,6 +28,7 @@ final class DetailViewController: UIViewController {
         super.viewDidLoad()
         view = detailView
         
+        // Detaylar sayfasına buton eklendi.
         let starButton = UIButton(frame: CGRect(x: 30, y: 700, width: 30, height: 30))
         starButton.backgroundColor = .red
         starButton.setTitle("★", for: .normal)
@@ -35,6 +36,7 @@ final class DetailViewController: UIViewController {
         detailView.addSubview(starButton)
     }
     
+    //Bu fonksiyon ile favori butonuna basılırsa coreData'ya içinde bulunduğu detay sayfasının title ekleniyor ve favoriler sayfasına yönlendiriliyor.
     @objc private func addFavorite() {
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate

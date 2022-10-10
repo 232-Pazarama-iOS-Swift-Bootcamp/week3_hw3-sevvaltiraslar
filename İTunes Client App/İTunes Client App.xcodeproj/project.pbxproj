@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A276D6228F43C39007E50CC /* MovieFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A276D6128F43C39007E50CC /* MovieFavoritesViewController.swift */; };
+		5A276D6528F43D1C007E50CC /* MusicFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A276D6428F43D1C007E50CC /* MusicFavoritesViewController.swift */; };
+		5A276D6A28F43E70007E50CC /* MusicVideoFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A276D6928F43E70007E50CC /* MusicVideoFavoritesViewController.swift */; };
+		5A276D6E28F43EF9007E50CC /* TvShowFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A276D6D28F43EF9007E50CC /* TvShowFavoritesViewController.swift */; };
 		5A299D5C28F1F737000009D7 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A299D5B28F1F737000009D7 /* NewViewController.swift */; };
 		5A299D5E28F1FA44000009D7 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A299D5D28F1FA44000009D7 /* MovieResponse.swift */; };
 		5A299D6028F1FA6B000009D7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A299D5F28F1FA6B000009D7 /* Movie.swift */; };
@@ -85,9 +89,16 @@
 		5AEDED5228ECBC1600D2F3FD /* PodcastResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDED5128ECBC1600D2F3FD /* PodcastResponse.swift */; };
 		5AEDED5428ECBC5900D2F3FD /* Poscast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDED5328ECBC5900D2F3FD /* Poscast.swift */; };
 		5AEDED5B28ECEE3600D2F3FD /* PodcastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDED5A28ECEE3600D2F3FD /* PodcastCollectionViewCell.swift */; };
+		5AFB7AEF28F4401E003F2453 /* SoftwareFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB7AEE28F4401E003F2453 /* SoftwareFavoritesViewController.swift */; };
+		5AFB7AF328F440C9003F2453 /* EbookFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB7AF228F440C9003F2453 /* EbookFavoritesViewController.swift */; };
+		5AFB7AF728F44169003F2453 /* AllFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB7AF628F44169003F2453 /* AllFavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A276D6128F43C39007E50CC /* MovieFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFavoritesViewController.swift; sourceTree = "<group>"; };
+		5A276D6428F43D1C007E50CC /* MusicFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicFavoritesViewController.swift; sourceTree = "<group>"; };
+		5A276D6928F43E70007E50CC /* MusicVideoFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoFavoritesViewController.swift; sourceTree = "<group>"; };
+		5A276D6D28F43EF9007E50CC /* TvShowFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowFavoritesViewController.swift; sourceTree = "<group>"; };
 		5A299D5B28F1F737000009D7 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		5A299D5D28F1FA44000009D7 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		5A299D5F28F1FA6B000009D7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -168,6 +179,9 @@
 		5AEDED5128ECBC1600D2F3FD /* PodcastResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastResponse.swift; sourceTree = "<group>"; };
 		5AEDED5328ECBC5900D2F3FD /* Poscast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poscast.swift; sourceTree = "<group>"; };
 		5AEDED5A28ECEE3600D2F3FD /* PodcastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastCollectionViewCell.swift; sourceTree = "<group>"; };
+		5AFB7AEE28F4401E003F2453 /* SoftwareFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareFavoritesViewController.swift; sourceTree = "<group>"; };
+		5AFB7AF228F440C9003F2453 /* EbookFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbookFavoritesViewController.swift; sourceTree = "<group>"; };
+		5AFB7AF628F44169003F2453 /* AllFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +195,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A276D5D28F43BD5007E50CC /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				5A276D5E28F43BE3007E50CC /* Controller */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		5A276D5E28F43BE3007E50CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A276D6128F43C39007E50CC /* MovieFavoritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A276D6328F43D07007E50CC /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				5A276D6628F43D20007E50CC /* Controller */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		5A276D6628F43D20007E50CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A276D6428F43D1C007E50CC /* MusicFavoritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A276D6728F43E54007E50CC /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				5A276D6828F43E59007E50CC /* Controller */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		5A276D6828F43E59007E50CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A276D6928F43E70007E50CC /* MusicVideoFavoritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A276D6B28F43EDF007E50CC /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				5A276D6C28F43EE7007E50CC /* Controller */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		5A276D6C28F43EE7007E50CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A276D6D28F43EF9007E50CC /* TvShowFavoritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A276D6F28F43F8F007E50CC /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				5A276D7028F43F99007E50CC /* Controller */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		5A276D7028F43F99007E50CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB7AEE28F4401E003F2453 /* SoftwareFavoritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5A299D5528F1D500000009D7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +347,7 @@
 		5A299D6D28F20436000009D7 /* Movie */ = {
 			isa = PBXGroup;
 			children = (
+				5A276D5D28F43BD5007E50CC /* Favorites */,
 				5A299D5828F1D51D000009D7 /* NewDetail */,
 				5AE54C9C28EDDCFF00AE5389 /* New */,
 			);
@@ -262,6 +357,7 @@
 		5A299D6E28F20472000009D7 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				5A276D6328F43D07007E50CC /* Favorites */,
 				5A299D7728F2050D000009D7 /* MusicDetail */,
 				5A299D7628F204DB000009D7 /* Music */,
 			);
@@ -280,6 +376,7 @@
 		5A299D7228F2049C000009D7 /* TvShow */ = {
 			isa = PBXGroup;
 			children = (
+				5A276D6B28F43EDF007E50CC /* Favorites */,
 				5A299D7F28F20555000009D7 /* TvShowDetail */,
 				5A299D7E28F20550000009D7 /* TvShow */,
 			);
@@ -289,6 +386,7 @@
 		5A299D7328F204A5000009D7 /* Software */ = {
 			isa = PBXGroup;
 			children = (
+				5A276D6F28F43F8F007E50CC /* Favorites */,
 				5A299D8128F20563000009D7 /* SoftwareDetail */,
 				5A299D8028F2055E000009D7 /* Software */,
 			);
@@ -298,6 +396,7 @@
 		5A299D7428F204AF000009D7 /* Ebook */ = {
 			isa = PBXGroup;
 			children = (
+				5AFB7AF028F440B0003F2453 /* Favorites */,
 				5A299D8328F20570000009D7 /* EbookDetail */,
 				5A299D8228F20568000009D7 /* Ebook */,
 			);
@@ -307,6 +406,7 @@
 		5A299D7528F204B5000009D7 /* All */ = {
 			isa = PBXGroup;
 			children = (
+				5AFB7AF428F44157003F2453 /* Favorites */,
 				5A299D8528F2057F000009D7 /* AllDetail */,
 				5A299D8428F2057A000009D7 /* All */,
 			);
@@ -345,6 +445,7 @@
 		5A299D7928F2051E000009D7 /* MusicVideoDetail */ = {
 			isa = PBXGroup;
 			children = (
+				5A276D6728F43E54007E50CC /* Favorites */,
 				5A299D8F28F20EC2000009D7 /* View */,
 				5A299D8E28F20EBB000009D7 /* Controller */,
 			);
@@ -963,6 +1064,38 @@
 			path = PodcastCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		5AFB7AF028F440B0003F2453 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB7AF128F440BA003F2453 /* Controller */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		5AFB7AF128F440BA003F2453 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB7AF228F440C9003F2453 /* EbookFavoritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AFB7AF428F44157003F2453 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB7AF528F4415B003F2453 /* Controller */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		5AFB7AF528F4415B003F2453 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB7AF628F44169003F2453 /* AllFavoritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1036,12 +1169,14 @@
 				5AE54C8528EDB1FA00AE5389 /* DetailViewController.swift in Sources */,
 				5A2CF0F128F2CACD00BBC45F /* TvShowView.swift in Sources */,
 				5A2CF0BB28F2BDAD00BBC45F /* MusicView.swift in Sources */,
+				5A276D6E28F43EF9007E50CC /* TvShowFavoritesViewController.swift in Sources */,
 				5A299DC828F215F5000009D7 /* TvShowViewController.swift in Sources */,
 				5A2CF0AD28F2BA3400BBC45F /* TvShow.swift in Sources */,
 				5AE54C8928EDB27A00AE5389 /* DetailView.swift in Sources */,
 				5A2CF09B28F2B93700BBC45F /* MusicResponse.swift in Sources */,
 				5A2CF10128F2CB6B00BBC45F /* TvShowDetailViewController.swift in Sources */,
 				5A2CF0F728F2CB1600BBC45F /* EbookDetailView.swift in Sources */,
+				5AFB7AF728F44169003F2453 /* AllFavoritesViewController.swift in Sources */,
 				5AE54CA228EDE66800AE5389 /* MovieRequest.swift in Sources */,
 				5A36ABB228F368DE00F96E94 /* FavoritesViewController.swift in Sources */,
 				5AE54C9528EDD79E00AE5389 /* HTTPMethod.swift in Sources */,
@@ -1063,6 +1198,7 @@
 				5A2CF0EB28F2CAA000BBC45F /* AllView.swift in Sources */,
 				5A2CF0B528F2BA7200BBC45F /* Ebook.swift in Sources */,
 				5A299DC228F215A8000009D7 /* MusicVideoViewController.swift in Sources */,
+				5A276D6228F43C39007E50CC /* MovieFavoritesViewController.swift in Sources */,
 				5A2CF0FD28F2CB4500BBC45F /* EbookDetailViewController.swift in Sources */,
 				5A2CF0F328F2CAF500BBC45F /* TvShowDetailView.swift in Sources */,
 				5A2CF0FF28F2CB5D00BBC45F /* SoftwareDetailViewController.swift in Sources */,
@@ -1076,8 +1212,11 @@
 				5A299DBE28F211CA000009D7 /* AllRequest.swift in Sources */,
 				5AE54C8228EDA54C00AE5389 /* CGFloat+Extensions.swift in Sources */,
 				5AE54C9B28EDDA9600AE5389 /* NetworkService.swift in Sources */,
+				5AFB7AEF28F4401E003F2453 /* SoftwareFavoritesViewController.swift in Sources */,
 				5A299DCA28F21608000009D7 /* SoftwareViewController.swift in Sources */,
+				5AFB7AF328F440C9003F2453 /* EbookFavoritesViewController.swift in Sources */,
 				5A2B64CD28ED8EE300C55529 /* UIImage+Extensions.swift in Sources */,
+				5A276D6528F43D1C007E50CC /* MusicFavoritesViewController.swift in Sources */,
 				5A2CF0E328F2CA6000BBC45F /* SoftwareCollectionViewCell.swift in Sources */,
 				5A299DB928F21198000009D7 /* SoftwareRequest.swift in Sources */,
 				5A2CF0C228F2BFCE00BBC45F /* MusicDetailView.swift in Sources */,
@@ -1100,6 +1239,7 @@
 				5A299DBB28F211A9000009D7 /* EbookRequest.swift in Sources */,
 				5A2CF0B128F2BA5500BBC45F /* Software.swift in Sources */,
 				5AE54C9928EDD8D500AE5389 /* PodcastRequest.swift in Sources */,
+				5A276D6A28F43E70007E50CC /* MusicVideoFavoritesViewController.swift in Sources */,
 				5A2CF0C728F2C8E200BBC45F /* MusicVideoCollectionViewCell.swift in Sources */,
 				5A2CF0E928F2CA8E00BBC45F /* AllCollectionViewCell.swift in Sources */,
 				5A299D6B28F1FEDE000009D7 /* NewDetailView.swift in Sources */,

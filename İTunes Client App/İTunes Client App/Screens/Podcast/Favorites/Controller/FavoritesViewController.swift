@@ -12,7 +12,7 @@ class FavoritesViewController: UIViewController {
     
     var nameArray = [String]()
     var idArray = [UUID]()
-    let tableView = UITableView(frame: CGRect(x: 0, y: 0, width: 800, height: 800))
+    let tableView = UITableView(frame: CGRect(x: 0, y: 0, width: 800, height: 800)) //Tableview frame ayarı
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +26,7 @@ class FavoritesViewController: UIViewController {
         getData()
     }
     
+    //CoreData'ya kaydedilen verileri çekme işlemi
     func getData() {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
@@ -36,7 +37,7 @@ class FavoritesViewController: UIViewController {
             
             for result in results as! [NSManagedObject]{
                 if let name = result.value(forKey: "name") as? String {
-                    self.nameArray.append(name)
+                    self.nameArray.append(name) //Kaydedilen veri boş bir string dizisine ekleniyor.
                 }
                 if let id = result.value(forKey: "id") as? UUID {
                     self.idArray.append(id)
@@ -50,6 +51,7 @@ class FavoritesViewController: UIViewController {
 
 }
 
+// MARK: - TableView DataSource ve Delegate Ayarı
 extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return nameArray.count

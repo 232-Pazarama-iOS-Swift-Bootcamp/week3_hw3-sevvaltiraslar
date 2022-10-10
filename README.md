@@ -22,4 +22,4 @@ Bu haftanın ödev konusu olarak, geliştirdiğimiz iTunes Client App uygulamas�
 
 ## Ekran Görüntüleri
 
-![ScreenShot](https://www.hizliresim.com/stchv5m)
+![Alt text](https://www.hizliresim.com/stchv5m)

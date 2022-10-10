@@ -26,7 +26,6 @@ Bu haftanın ödev konusu olarak, geliştirdiğimiz iTunes Client App uygulamas�
 <img width="361" alt="Ekran Resmi 2022-10-10 15 07 59" src="https://user-images.githubusercontent.com/58611650/194865263-2705a7e5-c047-4e79-8073-96e1c04e40b3.png">
 <img width="361" alt="Ekran Resmi 2022-10-10 15 08 17" src="https://user-images.githubusercontent.com/58611650/194865356-2f5c0650-2b3b-43f0-99c5-74be8338de79.png">
 <img width="362" alt="Ekran Resmi 2022-10-10 15 08 31" src="https://user-images.githubusercontent.com/58611650/194865374-80bb0bc3-c959-45f1-9000-69b195b15f03.png">
-<img width="369" alt="Ekran Resmi 2022-10-10 15 09 49" src="https://user-images.githubusercontent.com/58611650/194865402-5178a65e-a4f0-4219-a030-1788b30b64c6.png">
-
+<img width="369" alt="Ekran Resmi 2022-10-10 15 09 49" src="https://user-images.githubusercontent.com/58611650/194866169-ee32a7e9-70c3-4125-a01c-83d4928929d4.png">
 
 

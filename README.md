@@ -22,4 +22,5 @@ Bu haftanın ödev konusu olarak, geliştirdiğimiz iTunes Client App uygulamas�
 
 ## Ekran Görüntüleri
 
-![Alt text](https://www.hizliresim.com/stchv5m)
+<img width="351" alt="Ekran Resmi 2022-10-10 15 07 39" src="https://user-images.githubusercontent.com/58611650/194865189-3fa6cca3-985e-4b21-8b19-81f19badda2a.png">
+
